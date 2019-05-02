@@ -1,0 +1,17 @@
+a465f1acdc2b5f2b8a5c05ddd0e5208b *DESCRIPTION
+e9ce9e521a5e9fc86e09d8031aa851b2 *NAMESPACE
+8231aab22e59bf8fd1da52c775fca0bf *R/lai_inversion_lut.R
+c91de4746768b927363d8c8bcd9157c2 *R/lut_wcm.R
+72aea5a5e9f8dcd21f512e6f19f6ae17 *R/sm_inversion_lut.R
+cc35a335011c8865207dd1c1eb9d9212 *R/wcm_sim.R
+2566fcb68dbc2b4938a828ba88dcfb43 *build/vignette.rds
+4fc0ba96b46908a29e4501a81b7178c4 *inst/doc/introduction.R
+1cb7f8246ba1e086a8c1d8cae8c44015 *inst/doc/introduction.Rmd
+6c4bce73985c4dea3f6819fbb38f7900 *inst/doc/introduction.html
+9efa97081ecdb476ecc6e81e897e3b0a *inst/extdata/finalexp.csv
+d8306b8944c7448699e72b6eb419dbfb *inst/extdata/sigma0.tif
+707b01bd20df264f9e7e75512bb84252 *man/lai_inversion_lut.Rd
+23a38c14f31fe5ebfe6e9ece175a5fe6 *man/lut_wcm.Rd
+40ada6f09bfeb68f18ad3ba2d8b80788 *man/sm_inversion_lut.Rd
+eecd83a44fd5c41e94dff343755983be *man/wcm_sim.Rd
+1cb7f8246ba1e086a8c1d8cae8c44015 *vignettes/introduction.Rmd
