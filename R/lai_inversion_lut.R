@@ -3,7 +3,7 @@
 #' @param img raster object
 #' @param lookuptable Look up table simulated from 'wcm_sim' function
 #'
-#' @return a raster object (pixel value represnts LAI)
+#' @return a raster object (pixel value represents LAI)
 #' @export
 #' @examples
 #' radar <- raster::raster(ncol=10, nrow=10)
@@ -13,7 +13,7 @@
 #' B= -0.005331
 #' C= -11.758309
 #' D=  0.011344
-#' lut <- lut_wcm(LAI=seq(1,6,0.1), SM=seq(0,.6,.1),coeff=c(A,B,C,D))
+#' lut <- lut_wcm(LAI=seq(1,6,0.1), SM=seq(0,.6,.01),coeff=c(A,B,C,D))
 #'\donttest{out_lai <- lai_inversion_lut(img = radar,lookuptable = lut)}
 lai_inversion_lut <- function(img,lookuptable){
   lut <- deparse(substitute(lookuptable))

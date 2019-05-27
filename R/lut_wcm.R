@@ -1,9 +1,9 @@
 
 #' Look up table of WCM
 #'
-#' @param LAI one dimensional row vector (set a range of LAI value)
-#' @param SM one dimensionalrow vector (set a range of SM value)
-#' @param coeff Generated A, B, C, D fitted coeficinet for WCM using non linear least squre using in siu data
+#' @param LAI one dimensional row vector or a range of LAI value
+#' @param SM one dimensionalrow vector or a range of SM value
+#' @param coeff Generated A, B, C, D fitted coefficient for WCM using non linear least square using in situ data
 #' @import pracma
 #' @return look up table for WCM for given range of LAI and SM
 #' @export
@@ -12,7 +12,7 @@
 #' B=-0.005331
 #' C=-11.758309
 #' D=0.011344
-#' lookuptable <- lut_wcm(LAI=seq(1,6,0.1), SM=seq(0,.6,.1),coeff=c(A,B,C,D))
+#' lookuptable <- lut_wcm(LAI=seq(1,6,0.1), SM=seq(0,.6,.01),coeff=c(A,B,C,D))
 
 lut_wcm <- function(LAI, SM, coeff){
   sig <- array(vector(), c(NROW(LAI), NROW(SM)))
