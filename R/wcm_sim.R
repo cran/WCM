@@ -29,11 +29,11 @@
 #'        -8.198, -10.082,  -6.870,  -8.104,  -8.732,  -7.830, -10.686, -10.964, -10.976, -10.976)
 #'
 #'theta<-48.9
-#'\donttest{nlc<-nls.control(maxiter = 50000, tol = 1e-05, minFactor = 1/100000000000,
-#' printEval = FALSE, warnOnly = FALSE)}
-#' \donttest{k<-nls(w~wcm_sim(X,Y,theta,A,B,C,D),control=nlc,
-#'  start=list(A= 0.01,B=0.01,C=-21,D= 0.00014),trace = T)}
-#'\donttest{y<-predict(k)}
+#'example(nlc<-nls.control(maxiter = 50000, tol = 1e-05, minFactor = 1/100000000000,
+#' printEval = FALSE, warnOnly = FALSE))
+#' example(k<-nls(w~wcm_sim(X,Y,theta,A,B,C,D),control=nlc,
+#'  start=list(A= 0.01,B=0.01,C=-21,D= 0.00014),trace = T))
+#'example(y<-predict(k))
 #'n <- wcm_sim(X,Y,theta,-9.596695,-0.005331,-11.758309,0.011344)
 
 wcm_sim<-function(X,Y,theta,A, B, C, D)

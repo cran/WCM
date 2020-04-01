@@ -15,7 +15,7 @@
 #' C= -11.758309
 #' D=  0.011344
 #' lut1 <- lut_wcm(LAI=seq(1,6,0.1), SM=seq(0,.6,.01),coeff=c(A,B,C,D))
-#' \donttest{out_sm <- sm_inversion_lut(img = radar1,lookuptable = lut1)}
+#' example(out_sm <- sm_inversion_lut(img = radar1,lookuptable = lut1))
 sm_inversion_lut <- function(img,lookuptable){
   lut <- deparse(substitute(lookuptable))
   search_sm <- function(x){
